@@ -43,17 +43,18 @@ Admins can:
     ```bash
     npm install
     ```
-3. Set up environment variables (`.env` file):
-   `env
- DB_USERNAME=your_db_username
- DB_PASSWORD=your_db_password
- DB_DATABASE=your_db_name
- DB_HOST=your_db_host
- DB_PRODUCTION_DATABASE=your_db_name
- JWT_SECRET=your_jwt_secret
- EMAIL_USER=your_outlook_email
- EMAIL_PASS=your_outlook_password
- `
+3. Set up environment variables (`.env` file):  
+   Create a `.env` file in the root directory and add the following:
+    ```ini
+    DB_USERNAME=your_db_username
+    DB_PASSWORD=your_db_password
+    DB_DATABASE=your_db_name
+    DB_HOST=your_db_host
+    DB_PRODUCTION_DATABASE=your_db_name
+    JWT_SECRET=your_jwt_secret
+    EMAIL_USER=your_outlook_email
+    EMAIL_PASS=your_outlook_password
+    ```
 4. Run migrations:
     ```bash
     npx sequelize db:migrate
@@ -62,14 +63,6 @@ Admins can:
     ```bash
     npm start
     ```
-
-## 📢 Contributing
-
-Since the project is still under development, contributions are welcome! Feel free to submit issues or pull requests.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
