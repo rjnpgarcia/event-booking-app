@@ -21,7 +21,7 @@ Admins can:
 
 -   **Backend**: Node.js, Express, MySQL, Sequelize ORM
 -   **Authentication**: JWT, Bcrypt
--   **Email Service**: Nodemailer (Outlook integration)
+-   **Email Service**: Nodemailer (GMAIL integration)
 -   **Frontend**: [To be implemented]
 
 ## 🏗️ Development Status
